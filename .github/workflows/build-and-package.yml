@@ -1,4 +1,4 @@
-name: Build and Package
+name: Build and Package Installers
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    name: Build and Package for Windows and macOS
+    name: Build and Package Installers
     runs-on: ubuntu-latest
 
     steps:
@@ -32,21 +32,26 @@ jobs:
       - name: Build for macOS
         run: dotnet publish -c Release -r osx-x64 --self-contained -o ./output/macos
 
-      # Package for Windows
-      - name: Package for Windows
+      # Generate Windows Installer
+      - name: Generate Windows Installer
         run: |
-          mkdir -p ./artifacts
-          zip -r ./artifacts/keeys-windows.zip ./output/windows
+          apt-get install nsis -y
+          makensis ./scripts/keeys-installer.nsi
 
-      # Package for macOS
-      - name: Package for macOS
+      # Generate macOS Installer
+      - name: Generate macOS Installer
         run: |
-          mkdir -p ./artifacts
-          zip -r ./artifacts/keeys-macos.zip ./output/macos
+          chmod +x ./scripts/postinstall
+          pkgbuild --root ./output/macos \
+                   --scripts ./scripts \
+                   --identifier com.keeys.passwordmanager \
+                   --version 1.0 \
+                   --install-location /usr/local/bin/keeys \
+                   ./artifacts/keeys-installer.pkg
 
       # Upload artifacts
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: keeys-packages
+          name: keeys-installers
           path: ./artifacts
