@@ -1,0 +1,14 @@
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/bin/Debug/net9.0/Keeys
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/bin/Debug/net9.0/Keeys.deps.json
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/bin/Debug/net9.0/Keeys.runtimeconfig.json
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/bin/Debug/net9.0/Keeys.dll
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/bin/Debug/net9.0/Keeys.pdb
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net9.0/Keeys.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net9.0/Keeys.AssemblyInfoInputs.cache
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net9.0/Keeys.AssemblyInfo.cs
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net9.0/Keeys.csproj.CoreCompileInputs.cache
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net9.0/Keeys.dll
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net9.0/refint/Keeys.dll
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net9.0/Keeys.pdb
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net9.0/Keeys.genruntimeconfig.cache
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net9.0/ref/Keeys.dll
