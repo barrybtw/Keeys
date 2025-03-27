@@ -35,7 +35,8 @@ jobs:
       # Generate Windows Installer
       - name: Generate Windows Installer
         run: |
-          apt-get install nsis -y
+          sudo apt-get update
+          sudo apt-get install nsis -y
           makensis ./scripts/keeys-installer.nsi
 
       # Generate macOS Installer
