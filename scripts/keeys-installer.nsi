@@ -11,7 +11,7 @@ Section "Install"
   SetOutPath "$INSTDIR"
 
   # Copy all files to installation directory
-  File /r "Keeys\output\windows\*"
+  File /r "${GITHUB_WORKSPACE}/output/windows/*"
 
   # Add installation directory to PATH
   WriteEnvStr "PATH" "$PATH;$INSTDIR"
