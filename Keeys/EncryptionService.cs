@@ -22,9 +22,9 @@ namespace Keeys
         public string HashPassword(string password, string salt)
         {
             using var pbkdf2 = new Rfc2898DeriveBytes(
-                password, 
-                Convert.FromBase64String(salt), 
-                10000, 
+                password,
+                Convert.FromBase64String(salt),
+                10000,
                 HashAlgorithmName.SHA256);
             
             byte[] hash = pbkdf2.GetBytes(32);
@@ -87,7 +87,7 @@ namespace Keeys
         // Udleder en krypteringsnøgle fra hovedadgangskoden
         private byte[] DeriveKeyFromPassword(string password)
         {
-            // Salt bruges kun til demo - i produktion bør salt gemmes sikkert
+            // Salt bruges kun til demo - i realiteten bør salt gemmes sikkert
             string fixedSalt = "KeyesSaltForEncryption";
             byte[] saltBytes = Encoding.UTF8.GetBytes(fixedSalt);
             

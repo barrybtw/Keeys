@@ -12,7 +12,7 @@ namespace Keeys
         private readonly string _dbPath = Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
             "Keeys",
-            "passwords.db");
+            "keeys_pw.db");
             
         private readonly string _connectionString;
 

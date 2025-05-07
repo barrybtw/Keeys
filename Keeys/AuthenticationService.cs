@@ -9,7 +9,7 @@ namespace Keeys
     {
         private readonly DatabaseService _databaseService;
         private readonly EncryptionService _encryptionService;
-        private string _currentMasterKey;
+        private string _currentMasterKey = string.Empty;
 
         public AuthenticationService(
             DatabaseService databaseService, 

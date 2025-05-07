@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Keeys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c6d8f0737ed47f307d47e9bc57d10250820d85b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Keeys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Keeys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

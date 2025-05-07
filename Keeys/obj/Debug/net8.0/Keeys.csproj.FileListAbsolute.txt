@@ -39,3 +39,4 @@
 /Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net8.0/Keeys.pdb
 /Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net8.0/Keeys.genruntimeconfig.cache
 /Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net8.0/ref/Keeys.dll
+/Users/nicolaichristensen/RiderProjects/Keeys/Keeys/obj/Debug/net8.0/Keeys.sourcelink.json
